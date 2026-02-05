@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IET DAVV - Academics</title>
+</head>
+<body>
+    <h1>IET DAVV</h1>
+    <p><i>Excellence in Education Since 1985</i></p>
+    <hr>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="academics.html">Academics</a> |
+        <a href="apply.html">Apply Online</a> |
+        <a href="course_computer_science.html">Computer Science</a> |
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <hr>
+
+    <h2>Academic Departments & Courses</h2>
+    <p>Browse our departments and courses below.</p>
+
+    <h3>Department of Science</h3>
+    <ul>
+        <li><a href="course_computer_science.html">B.Sc. Computer Science</a></li>
+        <li>B.Sc. Mathematics</li>
+        <li>B.Sc. Physics</li>
+    </ul>
+
+    <h3>Department of Arts</h3>
+    <ul>
+        <li>B.A. English Literature</li>
+        <li>B.A. Sociology</li>
+        <li>B.A. History</li>
+    </ul>
+
+    <h3>Department of Commerce</h3>
+    <ul>
+        <li>B.Com (Accounting)</li>
+        <li>Bachelor of Business Administration (BBA)</li>
+    </ul>
+
+    <hr>
+    <footer>
+        <p>&copy; 2024 IET DAVV. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Main Content */
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            min-height: 400px; /* Ensures footer stays down on short pages */
+        }
+
+        h2 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 10px;
+        }
+
+        /* Nested List Styling */
+        ul.department-list {
+            list-style-type: none; /* Remove default bullets for departments */
+            padding: 0;
+        }
+
+        ul.department-list > li {
+            background-color: #e9ecef;
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 5px solid #003366;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* Inner Course List Styling */
+        ul.course-list {
+            list-style-type: square;
+            margin-top: 10px;
+            padding-left: 20px;
+            background-color: white;
+            font-weight: normal;
+            font-size: 1em;
+        }
+
+        ul.course-list li {
+            margin: 5px 0;
+            padding: 5px;
+        }
+
+        ul.course-list li a {
+            color: #d9534f; /* Reddish link color for visibility */
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        ul.course-list li a:hover {
+            color: #003366;
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://via.placeholder.com/100?text=Logo" alt="Grandview College Logo">
+        <div>
+            <h1>Grandview College</h1>
+            <p>Excellence in Education Since 1985</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Academics</button>
+            <div class="dropdown-content">
+                <a href="academics.html">Overview</a>
+                <a href="departments.html">Departments</a>
+                <a href="faculty.html">Faculty</a>
+                <a href="curriculum.html">Curriculum</a>
+                <a href="results.html">Results</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Admission</button>
+            <div class="dropdown-content">
+                <a href="admission.html">Overview</a>
+                <a href="requirements.html">Requirements</a>
+                <a href="fees.html">Fee Structure</a>
+                <a href="apply.html">Apply Online</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Gallery</button>
+            <div class="dropdown-content">
+                <a href="gallery.html">Main Gallery</a>
+                <a href="campus.html">Campus Tour</a>
+                <a href="events.html">Events</a>
+                <a href="library.html">Library</a>
+            </div>
+        </div>
+        
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        
+        <h2>Academic Departments & Courses</h2>
+        <p>Grandview College offers a diverse range of programs across Science, Arts, and Commerce. Browse our departments below and click on a specific course for detailed curriculum information.</p>
+
+        <ul class="department-list">
+            
+            <li>Department of Science
+                <ul class="course-list">
+                    <li><a href="course_computer_science.html">B.Sc. Computer Science</a></li>
+                    <li><a href="course_mathematics.html">B.Sc. Mathematics</a></li>
+                    <li><a href="course_physics.html">B.Sc. Physics</a></li>
+                </ul>
+            </li>
+
+            <li>Department of Arts
+                <ul class="course-list">
+                    <li><a href="course_english.html">B.A. English Literature</a></li>
+                    <li><a href="course_sociology.html">B.A. Sociology</a></li>
+                    <li><a href="course_history.html">B.A. History</a></li>
+                </ul>
+            </li>
+
+            <li>Department of Commerce
+                <ul class="course-list">
+                    <li><a href="course_accounting.html">B.Com (Accounting)</a></li>
+                    <li><a href="course_business_admin.html">Bachelor of Business Administration (BBA)</a></li>
+                </ul>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Grandview College. All Rights Reserved.</p>
+        <p>123 Education Lane, Knowledge City | Phone: (555) 123-4567</p>
+    </footer>
+
+</body>
+</html>
