@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Slideshow</title>
+</head>
+<body>
+
+<img id="slide" src="img1.jpg" width="400" height="250">
+
+<br><br>
+
+<button onclick="prevImage()">Previous</button>
+<button onclick="nextImage()">Next</button>
+
+<script>
+let images = ["img1.jpg","img2.jpg","img3.jpg","img4.jpg"];
+let index = 0;
+
+function showImage() {
+    document.getElementById("slide").src = images[index];
+}
+
+function nextImage() {
+    index++;
+    if(index >= images.length) {
+        index = 0;
+    }
+    showImage();
+}
+
+function prevImage() {
+    index--;
+    if(index < 0) {
+        index = images.length - 1;
+    }
+    showImage();
+}
+</script>
+
+</body>
+</html>
